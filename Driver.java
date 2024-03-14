@@ -5,14 +5,14 @@ public class Driver {
 
     public static void main(String[] args) {
     	
-        try{
-            PrintStream output = new PrintStream("Test1_unsynchronized.txt");
-            System.setOut(output);
+        // try{
+        //     PrintStream output = new PrintStream("Test1_unsynchronized.txt");
+        //     System.setOut(output);
 
-        }catch(FileNotFoundException e){
-            System.out.println("FILE NOT FOUND");
-            System.exit(0);
-        }
+        // }catch(FileNotFoundException e){
+        //     System.out.println("FILE NOT FOUND");
+        //     System.exit(0);
+        // }
 
         Network objNetwork = new Network();     
         objNetwork.start();
