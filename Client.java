@@ -103,7 +103,7 @@ public class Client extends Thread {
      * @return 
      * @param
      */
-     public void readTransactions()
+     public synchronized void readTransactions()
      {
         Scanner inputStream = null;     	/* Transactions input file stream */
         int i = 0;                      		/* Index of transactions array */
@@ -149,7 +149,7 @@ public class Client extends Thread {
      * @return 
      * @param
      */
-     public void sendTransactions()
+     public synchronized void sendTransactions()
      {
          int i = 0;     /* index of transaction array */
          

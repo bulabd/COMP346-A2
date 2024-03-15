@@ -1,0 +1,240 @@
+
+ Activating the network ...
+
+ DEBUG : Network.run() - starting network thread
+
+ Initializing the server ...
+
+ Inializing the Accounts database ...
+
+ DEBUG : Server.initializeAccounts() 71 accounts processed
+
+ Connecting server to network ...
+
+ Initializing client sending application ...
+
+ Initializing the transactions ... 
+
+ DEBUG : Server.processTransactions() server1
+
+ DEBUG : Server.processTransactions() server2
+
+ DEBUG : Client.readTransactions() - 71 transactions processed
+
+ Connecting client to network ...
+
+ Initializing client receiving application ...
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 31718
+
+ DEBUG : Network.send() - index inputIndexClient 0
+
+ DEBUG : Network.send() - account number 31718
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 11528
+
+ DEBUG : Network.send() - index inputIndexClient 1
+
+ DEBUG : Network.send() - account number 11528
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 16783
+
+ DEBUG : Network.send() - index inputIndexClient 2
+
+ DEBUG : Server.processTransactions() - transferring in account  
+
+ DEBUG : Server.processTransactions() - transferring in account  
+
+ DEBUG : Network.send() - account number 16783
+
+ DEBUG : Network.transferIn() - index outputIndexServer 0
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 10538
+
+ DEBUG : Network.send() - index inputIndexClient 3
+
+ DEBUG : Network.transferIn() - index outputIndexServer 0
+
+ DEBUG : Network.transferIn() - account number 31718
+
+ DEBUG : Network.transferIn() - account number 31718
+
+ DEBUG : Network.send() - account number 10538
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 21015
+
+ DEBUG : Network.send() - index inputIndexClient 4
+
+ DEBUG : Network.send() - account number 21015
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 61326
+
+ DEBUG : Network.send() - index inputIndexClient 5
+
+ DEBUG : Network.send() - account number 61326
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 82465
+
+ DEBUG : Network.send() - index inputIndexClient 6
+
+ DEBUG : Network.send() - account number 82465
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 31816
+
+ DEBUG : Network.send() - index inputIndexClient 7
+
+ DEBUG : Network.send() - account number 31816
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 73745
+
+ DEBUG : Network.send() - index inputIndexClient 8
+
+ DEBUG : Network.send() - account number 73745
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 81514
+
+ DEBUG : Network.send() - index inputIndexClient 9
+
+ DEBUG : Network.send() - account number 81514
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 92012
+
+ DEBUG : Network.send() - index inputIndexClient 0
+
+ DEBUG : Network.send() - account number 92012
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 52853
+
+ DEBUG : Network.send() - index inputIndexClient 1
+
+ DEBUG : Network.send() - account number 52853
+
+ DEBUG : Network.send() - inComingBuffer status full
+
+ DEBUG : Server.deposit - i 0 Current balance 10.0 Amount 90.0 server2
+
+ DEBUG : Server.deposit - i 0 Current balance 10.0 Amount 90.0 server1
+
+ DEBUG : Server.processTransactions() - Deposit of 90.0 in account 31718
+
+ DEBUG : Server.processTransactions() - Deposit of 90.0 in account 31718
+
+ DEBUG : Server.processTransactions() - transferring out account 31718
+
+ DEBUG : Server.processTransactions() - transferring out account 31718
+
+ DEBUG : Network.transferOut() - index inputIndexServer 0
+
+ DEBUG : Network.transferOut() - index inputIndexServer 0
+
+ DEBUG : Network.transferOut() - account number 31718
+
+ DEBUG : Server.processTransactions() - transferring in account 31718
+
+ DEBUG : Network.transferIn() - index outputIndexServer 2
+
+ DEBUG : Network.transferIn() - account number 16783
+
+ DEBUG : Network.transferOut() - account number 31718
+
+ DEBUG : Server.processTransactions() - transferring in account 31718
+
+ DEBUG : Network.transferIn() - index outputIndexServer 3
+
+ DEBUG : Network.transferIn() - account number 10538
+
+ DEBUG : Network.receive() - index outputIndexClient 0
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 41714
+
+ DEBUG : Server.deposit - i 3 Current balance 120000.0 Amount 20000.0 server2
+
+ DEBUG : Network.send() - index inputIndexClient 2
+
+ DEBUG : Server.withdraw - i 2 Current balance 28000.0 Amount 20000.0 server1
+
+ DEBUG : Network.receive() - account number 31718
+
+ DEBUG : Server.processTransactions() - Deposit of 20000.0 in account 10538
+
+ DEBUG : Server.processTransactions() - transferring out account 10538
+
+ DEBUG : Network.send() - account number 41714
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 58342
+
+ DEBUG : Network.send() - index inputIndexClient 3
+
+ DEBUG : Network.send() - account number 58342
+
+ DEBUG : Network.send() - inComingBuffer status full
+
+ DEBUG : Client.receiveTransactions() - receiving updated transaction on account 31718
+
+ DEBUG : Network.transferOut() - index inputIndexServer 2
+
+ DEBUG : Server.processTransactions() - Withdrawal of 20000.0 from account 16783
+
+ DEBUG : Network.transferOut() - account number 10538
+
+ DEBUG : Server.processTransactions() - transferring out account 16783
+
+ DEBUG : Server.processTransactions() - transferring in account 10538
+
+ DEBUG : Network.transferOut() - index inputIndexServer 3
+
+ DEBUG : Network.transferOut() - account number 16783
+
+ DEBUG : Server.processTransactions() - transferring in account 16783
+
+ DEBUG : Network.transferIn() - index outputIndexServer 4
+
+ DEBUG : Network.transferIn() - account number 21015
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 62080
+
+ DEBUG : Network.transferIn() - index outputIndexServer 4
+
+ DEBUG : Network.send() - index inputIndexClient 4
+
+ DEBUG : Network.send() - account number 62080
+
+ DEBUG : Network.send() - inComingBuffer status full
+
+ DEBUG : Network.transferIn() - account number 21015
+
+ DEBUG : Client.sendTransactions() - sending transaction on account 81514
+
+ DEBUG : Network.send() - index inputIndexClient 5
+
+ DEBUG : Network.send() - account number 81514
+
+ DEBUG : Network.send() - inComingBuffer status full
+
+ Account number 31718 Account Balance 100.0 Message done
+
+ DEBUG : Network.receive() - index outputIndexClient 1
+
+ DEBUG : Network.receive() - account number  
+
+ DEBUG : Client.receiveTransactions() - receiving updated transaction on account  
+
+ Account number   Account Balance 0.0 Message done
+
+ DEBUG : Network.receive() - index outputIndexClient 2
+
+ DEBUG : Network.receive() - account number 10538
+
+ DEBUG : Client.receiveTransactions() - receiving updated transaction on account 10538
+
+ Account number 10538 Account Balance 140000.0 Message done
+
+ DEBUG : Network.receive() - index outputIndexClient 3
+
+ DEBUG : Network.receive() - account number 16783
+
+ DEBUG : Network.receive() - outGoingBuffer status empty
+
+ DEBUG : Client.receiveTransactions() - receiving updated transaction on account 16783
+
+ Account number 16783 Account Balance 8000.0 Message done

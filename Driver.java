@@ -6,12 +6,10 @@ public class Driver {
     public static void main(String[] args) {
     	
         // try{
-        //     PrintStream output = new PrintStream("Test1_unsynchronized.txt");
+        //     PrintStream output = new PrintStream("semophore_output.txt");
         //     System.setOut(output);
-
         // }catch(FileNotFoundException e){
-        //     System.out.println("FILE NOT FOUND");
-        //     System.exit(0);
+        //     System.out.println("error: file not found");
         // }
 
         Network objNetwork = new Network();     
